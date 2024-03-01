@@ -29,7 +29,7 @@ public class HelloWorldTest {
 		String[] outputData = printedOutPut.split(System.getProperty("line.separator"));
 
 
-		assertEquals("Hello World", outputData[0]);
+		assertEquals("Hello World 123", outputData[0]);
 	}
 
 	@AfterEach
